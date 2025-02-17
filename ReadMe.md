@@ -1,8 +1,5 @@
 1 初始训练结果
 
-卷积网络如下：
-![alt text](image-1.png)
-
 已经可以在training loss/accuracy 和 validation loss/accuracy 上达到100%的水平，但是测试集的精度如下只有84.4%/86.6%，尤其是在scissor上的识别效果非常不好，有24个样本被判定为rock，有10个样本被判定为paper。当然，这个和数据集里他们的图片长相模凌两可有关（报告里面展示图像分析）。
 
 test accuracy: 84.4%
@@ -47,6 +44,6 @@ v）考虑到数据集中图像的不一致性，混合数据集之后，识别�
 训练结果：
 - 使用vanila版本网络代码+rps_new,rps-test-set_new，epoch 5左右, 参杂训练集和测试集，可以达到100%准确率
 - vanila,原始数据集，epoch 10, 准确率86.6%
-- 
+
 
 
